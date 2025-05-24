@@ -19,29 +19,34 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/#"
+            href="#about"
             className="text-gray-900 font-bold dark:text-white hover:text-blue-700"
           >
             About
           </Link>
           <Link
-            href="/#"
+            href="#skill"
             className="text-gray-900 font-bold dark:text-white hover:text-blue-700"
           >
-            Portofolio
+            SkillS
           </Link>
           <Link
-            href="/Sertifikasi#sertifikasi-section"
+            href="#project"
             className="text-gray-900 font-bold dark:text-white hover:text-blue-700"
           >
-            Sertifikasi 
+            Project
+          </Link>
+          <Link
+            href="#sertifikasi-section"
+            className="text-gray-900 font-bold dark:text-white hover:text-blue-700"
+          >
+            Certificate 
           </Link>
         </div>
 
-        {/* Gambar GitHub (Posisikan ke Kanan) */}
         <div className="flex items-center space-x-3 ml-auto">
           <Link
-            href="/#"
+            href="https://github.com/wahyualvyy"
             className="text-gray-900 dark:text-white hover:text-blue-700"
           >
             <img

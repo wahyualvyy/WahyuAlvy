@@ -8,7 +8,7 @@ const Portofolio = () => {
   ];
 
   return (
-    <div className="mt-6 flex justify-center items-center p-4">
+    <div className="mt-6 flex justify-center items-center p-4" id = "project">
       <div className="w-full max-w-screen-xl border-2 border-solid border-white p-8 rounded-lg shadow-lg">
         <h1 className="text-white font-bold text-[35px] mb-6">My Project</h1>
         

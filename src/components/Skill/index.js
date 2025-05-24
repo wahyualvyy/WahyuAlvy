@@ -5,7 +5,7 @@ const Skill = () => {
   const [selectedCategory, setSelectedCategory] = useState("skill");
 
   return (
-    <div className="mt-6 flex justify-center items-center p-4">
+    <div className="mt-6 flex justify-center items-center p-4" id = "skill">
       <div className="w-full max-w-screen-xl p-8 rounded-lg shadow-xl bg-black mb-8">
         <h1 className="text-white font-bold text-[35px] mb-6 border-b-4 border-yellow-500 pb-2 font-poppins tracking-wider">
           Skills
