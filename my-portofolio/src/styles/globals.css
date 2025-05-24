@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Waving Hand Animation */
+.wave-hand {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg); /* Starting position */
+  }
+  25% {
+    transform: rotate(-10deg); /* Slightly less extreme left */
+  }
+  50% {
+    transform: rotate(0deg); /* Back to original position */
+  }
+  75% {
+    transform: rotate(10deg); /* Slightly less extreme right */
+  }
+  100% {
+    transform: rotate(0deg); /* Back to original position */
+  }
+}
+
+/* Web Developer Text Animation */
+.text-animate {
+  display: inline-block;
+  font-weight: 500;
+  color: #facc15;
+  animation: typing 2.5s steps(20) infinite normal both,
+    color-change 5s ease-in-out infinite;
+  border-right: 0.1em solid white; /* Simulating a typing cursor */
+  white-space: nowrap; /* Ensures the text stays in a single line */
+  overflow: hidden; /* Prevents overflow */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em; /* Adjust width based on text length */
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #facc15;
+  }
+  50% {
+    color: #f97316; /* Orange */
+  }
+  100% {
+    color: #facc15; /* Back to yellow */
+  }
+}
+
+/* Profile Image Hover Effect */
+img:hover {
+  transform: scale(1.1); /* Scale the image by 10% when hovered */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+@keyframes waving-fire {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes flame {
+  0%,
+  100% {
+    transform: scaleY(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scaleY(1.3);
+    opacity: 1;
+  }
+}
+
+.animate-waving-fire {
+  animation: waving-fire 2s infinite linear;
+}
+
+.animate-flame {
+  animation: flame 1s infinite alternate ease-in-out;
+}
