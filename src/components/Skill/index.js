@@ -22,7 +22,7 @@ const Skill = () => {
                   : "bg-transparent text-yellow-500 border-2 border-yellow-500"
               }`}
           >
-            Tech Stack
+            Programming Language
           </button>
           <button
             onClick={() => setSelectedCategory("tools")}
@@ -69,7 +69,7 @@ const Skill = () => {
                     CSS
                   </p>
                   <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
-                    Advanced
+                    Intermediate
                   </p>
                 </div>
               </div>
@@ -92,16 +92,60 @@ const Skill = () => {
 
               <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
                 <img
-                  src="https://imgs.search.brave.com/_G42n01GQFKOA532LMlnJFwFWKYAJY8ElA8n5eMKXo0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY29u/LWljb25zLmNvbS9p/Y29uczIvMjEwOC9Q/TkcvOTYvamF2YXNj/cmlwdF9pY29uXzEz/MDkwMC5wbmc"
+                  src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
                   alt="JavaScript"
-                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
-                />
+                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"/>
                 <div className="flex flex-col items-start">
                   <p className="text-white text-lg font-semibold font-poppins tracking-wide">
                     JavaScript
                   </p>
                   <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
-                    Advanced
+                    Beginner
+                  </p>
+                </div>
+              </div>
+              <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
+                <img
+                  src="https://images.ctfassets.net/em6l9zw4tzag/oVfiswjNH7DuCb7qGEBPK/b391db3a1d0d3290b96ce7f6aacb32b0/python.png"
+                  alt="JavaScript"
+                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
+                />
+                <div className="flex flex-col items-start">
+                  <p className="text-white text-lg font-semibold font-poppins tracking-wide">
+                    Python
+                  </p>
+                  <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
+                    Beginner
+                  </p>
+                </div>
+              </div>
+              <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png"
+                  alt="JavaScript"
+                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
+                />
+                <div className="flex flex-col items-start">
+                  <p className="text-white text-lg font-semibold font-poppins tracking-wide">
+                    C++
+                  </p>
+                  <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
+                    Beginner
+                  </p>
+                </div>
+              </div>
+              <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
+                <img
+                  src="https://education.oracle.com/file/general/p-80-java.png"
+                  alt="JavaScript"
+                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
+                />
+                <div className="flex flex-col items-start">
+                  <p className="text-white text-lg font-semibold font-poppins tracking-wide">
+                    Java
+                  </p>
+                  <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
+                    Beginner
                   </p>
                 </div>
               </div>
@@ -113,7 +157,7 @@ const Skill = () => {
               {/* Tools Icons */}
               <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
                 <img
-                  src="https://img.icons8.com/ios/50/000000/laravel.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png"
                   alt="Laravel"
                   className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
                 />
@@ -122,14 +166,14 @@ const Skill = () => {
                     Laravel
                   </p>
                   <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
-                    Intermediate
+                    Beginner
                   </p>
                 </div>
               </div>
 
               <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
                 <img
-                  src="https://img.icons8.com/ios/50/000000/codeigniter.png"
+                  src="https://www.exabytes.co.id/blog/wp-content/uploads/2023/08/codeigniter-adalah-540x641.png"
                   alt="Codeigniter"
                   className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
                 />
@@ -145,32 +189,47 @@ const Skill = () => {
 
               <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
                 <img
-                  src="https://img.icons8.com/ios/50/000000/vue-js.png"
+                  src="https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png"
                   alt="VueJS"
                   className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
                 />
                 <div className="flex flex-col items-start">
                   <p className="text-white text-lg font-semibold font-poppins tracking-wide">
-                    VueJS
+                    Boostrap
                   </p>
                   <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
-                    Beginner
+                    Intermediate
                   </p>
                 </div>
               </div>
 
               <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
                 <img
-                  src="https://img.icons8.com/ios/50/000000/nodejs.png"
+                  src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png"
                   alt="NodeJS"
                   className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
                 />
                 <div className="flex flex-col items-start">
                   <p className="text-white text-lg font-semibold font-poppins tracking-wide">
-                    NodeJS
+                    MySQL
                   </p>
                   <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
                     Intermediate
+                  </p>
+                </div>
+              </div>
+              <div className="group relative flex items-center justify-start w-64 h-24 rounded-lg border-4 border-yellow-500 p-4 hover:scale-110 transition-transform">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+                  alt="NodeJS"
+                  className="object-contain w-16 h-16 mr-4 transition-transform duration-300"
+                />
+                <div className="flex flex-col items-start">
+                  <p className="text-white text-lg font-semibold font-poppins tracking-wide">
+                    Tailwind
+                  </p>
+                  <p className="text-xs font-bold text-yellow-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
+                    Beginner
                   </p>
                 </div>
               </div>

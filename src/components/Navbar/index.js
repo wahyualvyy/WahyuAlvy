@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 mx-auto">
-          <span className="text-xl font-semibold dark:text-white">Wuwuk Slebew();</span>
+          <span className="text-xl font-semibold dark:text-white">Mochammad Wahyu Alvy Kusuma</span>
         </Link>
 
         {/* Menu Navigation (Tengah) */}

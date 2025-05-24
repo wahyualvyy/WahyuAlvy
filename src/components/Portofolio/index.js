@@ -2,18 +2,15 @@ import React from "react";
 
 const Portofolio = () => {
   const projects = [
-    { title: "Project 1", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" },
-    { title: "Project 2", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" },
-    { title: "Project 3", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" },
-    { title: "Project 4", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" },
-    { title: "Project 5", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" },
-    { title: "Project 6", url: "#", image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/105/2025/03/09/IMG-20250309-WA0012-579669834.jpg" }
+    { title: "Project Showroom Mobil", url: "https://github.com/wahyualvyy/project-pkl.github.io", image: "https://i.ibb.co/rKWJX3mP/showrom.png" },
+    { title: "Project E-Absensi", url: "https://github.com/wahyualvyy/project-e-absensi-github.io", image: "https://i.ibb.co/bMcvQnsd/image.png" },
+    { title: "Project Penyewaan Villa", url: "https://github.com/wahyualvyy/Project-livecoding.github.io", image: "https://i.ibb.co/ZpCkGdjf/image.png" }
   ];
 
   return (
     <div className="mt-6 flex justify-center items-center p-4">
       <div className="w-full max-w-screen-xl border-2 border-solid border-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-white font-bold text-[35px] mb-6">My Portfolio</h1>
+        <h1 className="text-white font-bold text-[35px] mb-6">My Project</h1>
         
         {/* Grid untuk Card */}
         <div className="grid grid-cols-3 gap-6">

@@ -11,9 +11,9 @@ const Sertifikasi = () => {
   ];
 
   return (
-    <div id="sertifikasi-section" className="mt-6 flex justify-center items-center p-4">
+    <div id="sertifikasi-section" className="mt-6 flexg justify-center items-center p-4">
       <div className="w-full max-w-screen-xl border-2 border-solid border-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-white font-bold text-[35px] mb-6">My Certifications</h1>
+        <h1 className="text-white font-bold text-[35px] mb-6">My Certificate</h1>
         
         {/* Grid untuk Sertifikat */}
         <div className="grid grid-cols-3 gap-6">
