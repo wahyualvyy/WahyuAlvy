@@ -3,6 +3,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+# Portofolio - Aplikasi Portofolio Pribadi
+
+Portofolio ini dibangun menggunakan **Next.js**, sebuah framework React yang kuat dan efisien. Aplikasi ini memungkinkan Anda untuk menampilkan berbagai karya, pengalaman, dan informasi pribadi dengan antarmuka yang responsif dan interaktif.
+
+## 🔧 Fitur Utama
+
+- Menampilkan portofolio pribadi.
+- Responsif dan dapat diakses dengan baik di berbagai perangkat.
+- Menggunakan Next.j`s untuk optimasi performa dan pengalaman pengguna.
+- API routes untuk data dinamis (bisa dikembangkan untuk kebutuhan lebih lanjut).
+
+## 🚀 Cara Menjalankan Proyek
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di mesin lokal Anda:
+
+### 1. Clone Repository
+
+Clone repository ke dalam mesin lokal Anda menggunakan perintah berikut:
+
+````bash
+git clone https://github.com/username/portofolio.git
+
 First, run the development server:
 
 ```bash
@@ -13,7 +35,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -38,7 +60,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-=======
+# Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
 # portofolio
->>>>>>> 604c871b5ac1d05b46622859fb4b93d74cf212ea
+
+> > > > > > > 604c871b5ac1d05b46622859fb4b93d74cf212ea
