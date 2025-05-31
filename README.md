@@ -23,7 +23,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di mesin lokal Anda
 Clone repository ke dalam mesin lokal Anda menggunakan perintah berikut:
 
 ````bash
-git clone https://github.com/username/portofolio.git
+git clone https://github.com/wahyualvyy/portofolio.git
 
 First, run the development server:
 
