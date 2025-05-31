@@ -2,9 +2,9 @@ import React from "react";
 
 const Sertifikasi = () => {
   const certificates = [
-    { title: "Certificate 1", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" },
-    { title: "Certificate 2", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" },
-    { title: "Certificate 3", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" },
+    { title: "Belajar Dasar Pemrograman Web", url: "https://www.dicoding.com/certificates/ERZR1Y0NOZYV", image: "https://www.dropbox.com/scl/fi/0kbdr2uc85m6nfafq4bd7/sertifikat_course_123_2898745_010624122633_page-0001.jpg?rlkey=o27yq4hr0eqz0d4ksn091p898&st=swxf9rmz&raw=1" },
+    { title: "Belajar Membuat Front-End Web untuk Pemula", url: "https://www.dicoding.com/certificates/MEPJNQ26JX3V", image: "https://www.dropbox.com/scl/fi/yyesjgpdupe1x7ywsa14z/sertifikat_course_315_2898745_100624145520_page-0001.jpg?rlkey=w4zv92ktuu88u5t7nnmt46irp&st=l94vpyj2&raw=1" },
+    { title: "Belajar Dasar Pemrograman JavaScript", url: "https://www.dicoding.com/certificates/NVP7Q4L7VZR0", image: "https://www.dropbox.com/scl/fi/s4sjhund3o7n29xv75qse/sertifikat_course_256_2898745_050624154537_page-0001.jpg?rlkey=uw7o7gy47c1k1uxzq2o0sf0bx&st=c01xln3p&raw=1" },
     { title: "Certificate 4", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" },
     { title: "Certificate 5", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" },
     { title: "Certificate 6", url: "#", image: "https://i.ebayimg.com/images/g/mIwAAOSwLOdiniHz/s-l1600.jpg" }

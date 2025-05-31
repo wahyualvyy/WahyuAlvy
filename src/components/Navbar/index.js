@@ -57,7 +57,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Tombol Placeholder untuk menjaga keseimbangan */}
+       
         <div className="hidden md:block"></div>
       </div>
     </nav>
