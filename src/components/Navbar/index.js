@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 shadow-md sticky top-0 z-10 bg-black">
+    <nav className="p-4 shadow-md top-0 z-10 bg-black">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 mx-auto">
@@ -46,8 +46,18 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-3 ml-auto">
           <Link
+            href="https://linkedin.com/in/wahyu-alvy"
+            className="text-gray-900 dark:text-white hover:text-blue-700" target="_blank"
+          >
+            <img
+              src="https://i.pinimg.com/736x/b2/f8/28/b2f828513f21444829a619ce563d4d4e.jpg"
+              className="h-8 bg-white rounded-full"
+              alt="Linkedin"
+            />
+          </Link>
+          <Link
             href="https://github.com/wahyualvyy"
-            className="text-gray-900 dark:text-white hover:text-blue-700"
+            className="text-gray-900 dark:text-white hover:text-blue-700"target="_blank"
           >
             <img
               src="https://imgs.search.brave.com/GduSKacK9ReAYwmDLPyB3b294OleC4df4OvTGmJcr3M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2ph/eXdjamxvdmUvbG9n/by9tYXN0ZXIvaW1n/L2dpdGh1Yi5zdmc"
