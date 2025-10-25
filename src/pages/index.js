@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="icon"
-          href="https://static-00.iconduck.com/asse ts.00/nextjs-icon-1024x1024-5et230l7.png"
+          href="/images/A.png"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
